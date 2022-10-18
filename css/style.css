@@ -516,13 +516,67 @@ img {
   padding-right: 10px;
 }
 
+/* Get Started Section */
+.get-started {
+  background-color: #9792E4;
+  padding: 3rem 0;
+}
 
+.gs-text {
+  display: flex;
+  flex-direction: column;
+  gap: 3rem;
+  text-align: center;
+  justify-content: center;
+  align-items: center;
+}
 
+.gs-text h3 {
+  font-size: 1.2rem;
+  font-weight: 300;
+  color: rgba(255, 255, 255, .6);
+}
 
+.gs-text h2 {
+  font-size: 3rem;
+  font-weight: 600;
+  color: white;
+}
 
+.gs-text h1 {
+  font-size: 6rem;
+  font-weight: 600;
+  color: #FDC15F;
+}
 
+.gs-text h4 {
+  font-size: 1.2rem;
+  color: white;
+  font-weight: 200;
+  width: 50%;
+}
 
+.gs-btn {
+  color: #9792E4;
+  background-color: white;
+  padding: 1.5rem 3rem;
+  font-size: 1.5rem;
+  font-weight: 600;
+  border-radius: 3rem;
+}
 
+.gs-text h5 {
+  font-size: 1rem;
+  color: white;
+  font-weight: 200;
+  width: 50%;
+}
+
+.gs-text h5 a {
+  font-size: 1rem;
+  font-weight: 200;
+  color: white;
+}
 
 
 
@@ -555,6 +609,15 @@ img {
 
 /* Tablet Responsiveness */
 @media screen and (max-width: 768px) {
+
+  .gs-text h5 {
+    width: 100%;
+  }
+
+  .gs-text h4 {
+    width: 80%;
+  }
+
   .fa-quote-left {
     position: absolute;
     right: 50px;
@@ -657,6 +720,15 @@ img {
 
 /* Mobile Responsiveness */
 @media screen and (max-width: 480px) {
+
+  .gs-text h1 {
+    font-size: 4rem;
+  }
+
+  .gs-text h2 {
+    font-size: 2.5rem;
+  }
+
   .about-col-left h1 {
     font-size: 3rem;
   }
