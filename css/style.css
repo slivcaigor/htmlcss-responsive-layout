@@ -295,7 +295,6 @@ img {
 
 .flex {
   display: flex;
-  justify-content: space-between;
 }
 
 .col-rgt p {
@@ -310,6 +309,95 @@ img {
   padding: 1.5rem;
   background-color: #9792E4;
 }
+
+/* Testimonial Section */
+.row-testimonial {
+  background-color: #9792E4;
+  width: 100%;
+  border-radius: 3rem;
+  display: flex;
+  align-items: center;
+  justify-content: left;
+}
+
+.flex-testimonial {
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
+}
+
+.testimonial-text {
+  margin-top: 3rem;
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  gap: 2rem;
+}
+
+.testimonial-text span {
+  font-size: 1.1rem;
+  color: rgba(0, 0, 0, 0.6);
+}
+
+.testimonial-text p {
+  font-size: 1.2rem;
+  color: rgba(0, 0, 0, 0.6);
+}
+
+.testimonial-text h1 {
+  font-size: 3rem;
+  color: #9792E4;
+}
+
+.row-testimonial.img {
+  width: 30%;
+}
+
+.row-testimonial img {
+  width: 200px;
+  height: 200px;
+  border-radius: 50%;
+  padding: 2rem;
+}
+
+.row-testimonial.quote-text {
+  width: 70%;
+}
+
+.quote-text .fa-solid {
+  color: white;
+  font-size: 1.2rem;
+  padding: 0 5px;
+}
+
+.quote-text p {
+  color: white;
+  font-size: 18px;
+  padding: 0 1rem 1rem 1rem;
+}
+
+.name {
+  color: white;
+  font-size: 19px;
+  padding: 0 0 20px 20px;
+  font-weight: 600;
+}
+
+.quote-text {
+  padding-top: 3rem;
+}
+
+.flex-testimonial {
+  margin-bottom: 3rem;
+}
+
+
+
+
+
+
+
+
 
 /************************************************
    RESPONSIVE
@@ -425,6 +513,19 @@ img {
 
 /* Mobile Responsiveness */
 @media screen and (max-width: 480px) {
+
+  .testimonial-text h1 {
+    font-size: 2rem;
+  }
+
+  .quote-text {
+    padding-top: 0;
+  }
+
+  .row-testimonial {
+    flex-direction: column;
+    text-align: center;
+  }
 
   .col-lft {
     margin-left: 2rem;
