@@ -402,6 +402,7 @@ img {
 
 .benefits-section {
   background-color: rgb(151, 146, 228);
+  padding-bottom: 3rem;
 }
 
 .heading-nmbr {
@@ -438,6 +439,81 @@ img {
   letter-spacing: .5rem;
   font-weight: 600;
   color: white;
+}
+
+/* About Us Section */
+.about-col-left {
+  width: 60%;
+}
+
+.about-col-left h1 {
+  font-size: 4rem;
+  color: #9792E4;
+  padding-bottom: 2rem;
+}
+
+.about-col-left p {
+  font-size: 1.1rem;
+  line-height: 2rem;
+  color: rgba(0, 0, 0, .5);
+}
+
+.about-col-right {
+  width: 40%;
+}
+
+.about-us-section {
+  margin: 3rem 0;
+  display: flex;
+}
+
+.about-col-right {
+  position: relative;
+  display: flex;
+  padding-top: 4rem;
+  flex-direction: column;
+}
+
+.about-col-right h3 {
+  color: #9792E4;
+  font-weight: 600;
+  font-size: 1.6rem;
+  line-height: 2rem;
+  width: 50%;
+  display: flex;
+  align-self: center;
+  justify-content: center;
+  padding-top: 1rem;
+}
+
+.about-col-right img {
+  border-radius: 50%;
+  width: 50%;
+  display: flex;
+  align-self: center;
+}
+
+.fa-quote-left {
+  position: absolute;
+  right: 105px;
+  top: 70px;
+  color: #9792E4;
+}
+
+.linkedin-btn {
+  display: flex;
+  background-color: #9792E4;
+  color: white;
+  padding: .6rem 1.5rem;
+  width: 50%;
+  justify-content: center;
+  align-self: center;
+  margin-top: 1rem;
+  border-radius: 2rem;
+}
+
+.fa-linkedin {
+  padding-right: 10px;
 }
 
 
@@ -479,6 +555,23 @@ img {
 
 /* Tablet Responsiveness */
 @media screen and (max-width: 768px) {
+  .fa-quote-left {
+    position: absolute;
+    right: 50px;
+    top: 70px;
+    font-size: 55px;
+    color: #9792E4;
+  }
+
+  .about-col-right h3 {
+    width: 80%;
+    text-align: center;
+  }
+
+  .linkedin-btn {
+    width: 80%;
+  }
+
   .flex {
     flex-direction: column;
   }
@@ -564,6 +657,27 @@ img {
 
 /* Mobile Responsiveness */
 @media screen and (max-width: 480px) {
+  .about-col-left h1 {
+    font-size: 3rem;
+  }
+
+  .about-col-left {
+    width: 100%;
+  }
+
+  .fa-quote-left {
+    top: 80px;
+    right: 90px;
+    font-size: 5rem;
+  }
+
+  .about-col-right {
+    width: 100%;
+  }
+
+  .about-us-section {
+    flex-direction: column;
+  }
 
   .testimonial-text h1 {
     font-size: 2rem;
