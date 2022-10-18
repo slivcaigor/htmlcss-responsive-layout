@@ -391,6 +391,57 @@ img {
   margin-bottom: 3rem;
 }
 
+/* Benefits Section */
+.title {
+  color: white;
+  font-size: 2.5rem;
+  text-align: center;
+  font-weight: 600;
+  padding: 3rem;
+}
+
+.benefits-section {
+  background-color: rgb(151, 146, 228);
+}
+
+.heading-nmbr {
+  text-align: left;
+  color: rgb(151, 146, 228);
+  font-size: 5rem;
+  font-weight: 600;
+}
+
+.nmbr-text {
+  font-size: 1.1rem;
+  text-align: left;
+  color: rgba(0, 0, 0, .6);
+}
+
+.subheading-nmbr {
+  text-align: left;
+  color: rgb(151, 146, 228);
+  font-size: 1.6rem;
+  font-weight: 600;
+}
+
+.bg-col {
+  background-color: white;
+}
+
+.btn-purple {
+  background-color: rgb(151, 146, 228);
+  width: 40%;
+  text-align: center;
+  font-size: 1.1rem;
+  padding: .7rem 1.5rem;
+  border-radius: 2rem;
+  letter-spacing: .5rem;
+  font-weight: 600;
+  color: white;
+}
+
+
+
 
 
 
